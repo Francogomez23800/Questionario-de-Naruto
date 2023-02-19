@@ -1,33 +1,73 @@
 export const data = [{
-    question: 'Cual de las siguientes opciones no es un editor de codigo?',
+    question: '¿En qué año se estrenó el anime de Naruto?',
     choices: [
-        'Vim',
-        'VSCode',
-        'Emacs',
-        'Word',
+        '2001',
+        '2002',
+        '2000',
+        '1998',
     ],
-    answer: 'Word'
+    answer: '2002'
 },
 
 {
-    question: 'que lenguaje no es orientado a objetos?',
+    question: '¿Con quién se fué a entrenar Naruto por 3 años?',
     choices: [
-        'Java',
-        'Haskell',
-        'C++',
-        'Python',
+        'Jiraiya',
+        'Itachi',
+        'Kakashi',
+        'Sakura',
     ],
-    answer: 'Haskell'
+    answer: 'Jiraiya'
 },
 
 {
-    question: 'que lenguaje no sirve para estilizar sitios web?',
+    question: '¿Con qué personaje quedó manco Naruto?',
     choices: [
-        'Stylus',
-        'PostCSS',
-        'Sass',
-        'NextCSS',
+        'Sasuke',
+        'Orochimaru',
+        'Sakura',
+        'Shikamaru',
     ],
-    answer: 'PostCSS'
+    answer: 'Sasuke'
+},
+{
+    question: '¿Cuántos mangas se han escrito de Naruto?',
+    choices: [
+        '456',
+        '895',
+        '320',
+        '700',
+    ],
+    answer: '700'
+},
+{
+    question: '¿Cómo se llama el primer capitulo del anime?',
+    choices: [
+        'Datebayo',
+        'Camino Ninja',
+        'El zorro de las nueve colas',
+        'Naruto Uzumaki',
+    ],
+    answer: 'Naruto Uzumaki'
+},
+{
+    question: '¿Cómo se llama el bijuu que tiene sellado Naruto?',
+    choices: [
+        'Luffy',
+        'Kurama',
+        'Kyubi',
+        'Yuubi',
+    ],
+    answer: 'Kurama'
+},
+{
+    question: '¿Cómo se llama el autor del manga?',
+    choices: [
+        'Akira Toriyama',
+        'Itachi Uchiha',
+        'Masashi Kishimoto',
+        'Arthur Conan Doyle',
+    ],
+    answer: 'Itachi Uchiha'
 },
 ]

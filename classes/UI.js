@@ -60,10 +60,12 @@ export class UI {
         <hr>
         <b>Itachi Uchiha</b>
     </li></ul>
-    <a id="restart" class="showAnswers" href="#">Reintentar</a>
+    <a id="restart" class="showAnswers" href="/">Reintentar</a>
         `
         const element = document.getElementById('quiz')
         element.innerHTML = quizEndHTML
+        const scoreText = document.querySelector('.score')
+        const h1 = document.querySelector('h1')
         const answers = document.getElementById('answers')
         const restart = document.getElementById('restart')
         const showAnswer = document.querySelector('.showAnswers')
@@ -71,6 +73,8 @@ export class UI {
             answers.style.display = 'block'
             showAnswer.style.display = 'none'
             restart.style.display = 'block'
+            h1.style.display = 'none'
+            scoreText.style.display = 'none'
         })
     }
 
